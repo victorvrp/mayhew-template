@@ -1,0 +1,16 @@
+//Cria nosso tema
+$back-color:#eaeaea;
+$purple-light:#470a68;
+$purple-dark:#380853;
+
+    $theme-colors: (
+    "back-color" : $back-color,
+    "purple-light" : $purple-light,
+    "purple-dark" : $purple-dark,
+);
+
+.body {
+    background-color: #470a68;
+}
+// importar o bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
